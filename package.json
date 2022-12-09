@@ -1,0 +1,19 @@
+{
+  "name": "devcoach-sample",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "test-books-reader-promise": "node ./Promise/preparation-file-and-show-cli.js",
+    "test-books-reader-async": "node ./AsyncFunction/preparation-file-and-show-cli.js",
+
+    "test-scrap-books-promise": "node ./Promise/scrapping-puppeteer.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cli-html": "^3.0.6",
+    "extract-zip": "^2.0.1",
+    "puppeteer": "^19.4.0"
+  }
+}
